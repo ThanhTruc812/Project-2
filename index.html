@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/image/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="/image/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -13,61 +13,95 @@
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
-                Su<span>shi</span>
+                <img src="/image/logo.png" alt="logo image">
             </a>
-
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#" class="nav__link active-link">Home</a>
+                        <a href="#home" class="nav__link active-link">Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">About us</a>
+                        <a href="#about" class="nav__link">About us</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Popular</a>
+                        <a href="#popular" class="nav__link">Popular</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Recently</a>
+                        <a href="#recently" class="nav__link">Recently</a>
                     </li>
                 </ul>
     
                 <div class="nav__close" id="nav-close">
                     <i class="ri-close-line"></i>
                 </div>
-
-                <img src="/Project-2/image/lacay.png" alt="nav image" class="nav__img">
-            </div>
-
-
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-line"></i>
+                <img src="/image/leaf-branch-2.png" alt="nav image" class="nav__img-1">
+                <img src="/image/leaf-branch-1.png" alt="nav image" class="nav__img-2">
+                </div>
+                <div class="nav__buttons">
+                    <!-- theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                        <!-- Toggle button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                </div>
             </div>
         </nav>
     </header>
+    <!-- ==================Main================= -->
     <main class="main">
-        <section class="home">
-           <!-- <div class="home__container container">
-                <div class="home_data">
+        <!-- =================Home================ -->
+        <section class="home section" id="home">
+           <div class= "home__container container grid">
+         <img src="/image/background.png" alt="home image" class="home__img">
+                <div class="home__data">
                     <h1 class="home__title">
-                        Get Fresh
-                        <span>Juiceables</span>
-                        Everyday
+                        Enjoy Delicious
+                        <div>
+                        <img src="/image/sushi_title.png" alt="home image">
+                        Sushi Food
+                        </div>
                     </h1>
                     <p class="home__description">
-                        Starting at $360 per month, get <br>
-                        those benefits and more.
+                        Thưởng thức buổi ăn tối với những món ăn ngon nhất
+                        trong nhà hàng và cải thiện một ngày của bạn
                     </p>
-                    <a href="#" class="home__button">
-                        Details
+                    <a href="#" class="button">
+                        Đặt Món Ngay <i class="ri-arrow-right-line"></i>
                     </a>
                 </div>
-
-                <div class="home__images">
-
                 </div>
-           </div>  -->
+           
         </section>
+        <!-- =======================ABOUT================ -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <span class="section__subtitle">ABOUT US</span>
+                    <h2 class="section__title about__title">
+                        <div>
+                            We Provide
+                            <img src="/image/hinh1.png" alt="about image">
+                        </div>
+                            Healthy Food
+                    </h2>
+                    <p class="about__description">
+                        ...
+                    </p>
+                </div>
+                <img src="/image/hinh2.png" alt="about image" class="about__img">
+
+            </div>
+            <img src="/image/leaf-branch-3.png" alt="about image" class="about__img">
+        </section>
+
+
+
+
+
+        <!-- =======================Popular=============== -->
+
+        <!-- ===================RECENTLY================= -->
+
     </main>
 
     <script src="main.js"></script>
